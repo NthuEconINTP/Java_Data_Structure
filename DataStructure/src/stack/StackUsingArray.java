@@ -43,5 +43,6 @@ public class StackUsingArray {
 		System.out.println("現在這個stack的頂端是"+mystack.peek());
 		mystack.pop();
 		System.out.println("現在這個stack的頂端是"+mystack.peek());
+		System.out.println("hello");
 	}
 }
