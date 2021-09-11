@@ -26,7 +26,7 @@ public class StackUsingArray {
 	}
 	
 	public void pop() {
-		System.out.println("¤w¸g±N¸ê®Æ"+arr[top]+"½ğ¥X¥h");
+		System.out.println("ï¿½wï¿½gï¿½Nï¿½ï¿½ï¿½"+arr[top]+"ï¿½ï¿½Xï¿½h");
 		top=top-1;
 	}
 	
@@ -38,13 +38,14 @@ public class StackUsingArray {
 		
 		StackUsingArray mystack=new StackUsingArray(5);
 		mystack.push(23);
-		System.out.println("²{¦b³o­Óstackªº³»ºİ¬O"+mystack.peek());
+		System.out.println("ï¿½{ï¿½bï¿½oï¿½ï¿½stackï¿½ï¿½ï¿½ï¿½ï¿½İ¬O"+mystack.peek());
 		mystack.push(30);
-		System.out.println("²{¦b³o­Óstackªº³»ºİ¬O"+mystack.peek());
+		System.out.println("ï¿½{ï¿½bï¿½oï¿½ï¿½stackï¿½ï¿½ï¿½ï¿½ï¿½İ¬O"+mystack.peek());
 		mystack.pop();
-		System.out.println("²{¦b³o­Óstackªº³»ºİ¬O"+mystack.peek());
+		System.out.println("ï¿½{ï¿½bï¿½oï¿½ï¿½stackï¿½ï¿½ï¿½ï¿½ï¿½İ¬O"+mystack.peek());
 		System.out.println("hello");
 		System.out.println(" 123");
-		System.out.println("³o¬O§Ú¦bDATASTRUCTURE¸Ì­±·s¼Wªº");
+		System.out.println("ï¿½oï¿½Oï¿½Ú¦bDATASTRUCTUREï¿½Ì­ï¿½ï¿½sï¿½Wï¿½ï¿½");
+		System.out.println("é€™æ˜¯æˆ‘åœ¨workspace2è£¡é¢æ–°å¢çš„");
 	}
 }
