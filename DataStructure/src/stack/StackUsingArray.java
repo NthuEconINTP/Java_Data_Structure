@@ -26,7 +26,7 @@ public class StackUsingArray {
 	}
 	
 	public void pop() {
-		System.out.println("�w�g�N���"+arr[top]+"��X�h");
+		System.out.println("嚙緩嚙篇嚙瞇嚙踝蕭嚙�"+arr[top]+"嚙踝蕭X嚙篁");
 		top=top-1;
 	}
 	
@@ -38,14 +38,11 @@ public class StackUsingArray {
 		
 		StackUsingArray mystack=new StackUsingArray(5);
 		mystack.push(23);
-		System.out.println("�{�b�o��stack�����ݬO"+mystack.peek());
+		System.out.println("嚙緹嚙箭嚙緻嚙踝蕭stack嚙踝蕭嚙踝蕭嚙豎是"+mystack.peek());
 		mystack.push(30);
-		System.out.println("�{�b�o��stack�����ݬO"+mystack.peek());
+		System.out.println("嚙緹嚙箭嚙緻嚙踝蕭stack嚙踝蕭嚙踝蕭嚙豎是"+mystack.peek());
 		mystack.pop();
-		System.out.println("�{�b�o��stack�����ݬO"+mystack.peek());
-		System.out.println("hello");
-		System.out.println(" 123");
-		System.out.println("�o�O�ڦbDATASTRUCTURE�̭��s�W��");
-		System.out.println("這是我在workspace2裡面新增的");
+		System.out.println("123");
+	
 	}
 }
