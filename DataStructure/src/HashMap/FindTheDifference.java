@@ -2,6 +2,7 @@ package HashMap;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class FindTheDifference {
@@ -15,6 +16,10 @@ public class FindTheDifference {
 		for (int i=0;i<sarray.length;i++) {
 			myHashMap.put(sarray[i], sarray);
 		}
+		
+//		for (  Map.Entry<Character, Character>  entry :myHashMap.entrySet() ) {
+//		
+//		}
 		
 		for (int i=0;i<tarray.length;i++) {
 			if(!myHashMap.containsKey(tarray[i])) {

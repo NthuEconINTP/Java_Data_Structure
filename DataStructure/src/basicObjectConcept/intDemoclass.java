@@ -2,6 +2,7 @@ package basicObjectConcept;
 
 
 public class intDemoclass {
+	
 	static private int mynumberstatic=3;
 	private int mynumber=5;
 
