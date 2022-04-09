@@ -38,7 +38,7 @@ public class FindTheDifference {
 	}
 	
 	public static void main(String[] args) {
-		
+		System.out.println("123");
 		String s="mike";
 		String t="mikeg";
 		

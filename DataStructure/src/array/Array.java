@@ -9,7 +9,7 @@ public class Array {
 		System.out.println(myarray);
 		System.out.println(myarray.toString()       );
 		System.out.println(Arrays.toString(score));
-		
+		 System.out.println("123");
 		ArrayList<Integer> arrL = new ArrayList<Integer>(2);
 		arrL.add(1); 
         arrL.add(2); 
