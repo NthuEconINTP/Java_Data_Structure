@@ -8,7 +8,7 @@ public class RomantoInteger {
     public static int romanToInt(String s) {
 		
     	// make a hashMap to store the relation between Roman Character and Interger
-    	Map<Character, Integer> RomanMap = new HashMap<Character, Integer>();
+    	Map<Character, Integer> RomanMap = new HashMap<>();
     	
     	RomanMap.put('I', 1);
     	RomanMap.put('V', 5);

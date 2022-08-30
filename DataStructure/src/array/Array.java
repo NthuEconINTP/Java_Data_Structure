@@ -6,6 +6,7 @@ public class Array {
 		int myarray[]=new int [5];//宣告時給定空間大小
 		int[] score = new int[] {90, 85, 55, 94, 77};//宣告時直接給值
 		int[] score2= {2,3};
+		
 		System.out.println(myarray);
 		System.out.println(myarray.toString()       );
 		System.out.println(Arrays.toString(score));

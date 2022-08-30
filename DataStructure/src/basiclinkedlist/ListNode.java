@@ -19,6 +19,10 @@ public class ListNode {
 	}
 	
 	
+	@Override
+	public String toString() {
+		return "ListNode [val=" + val + ", next=" + next + "]";
+	}
 	public static void printLinkedList(ListNode head) {
 		
 		ListNode currentNode=head;
