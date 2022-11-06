@@ -1,3 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/basicjava/SuperKeyWord.java=UTF-8
 encoding//src/stack/StackUsingArray.java=UTF-8
+encoding//src/thread/BlcokingQueueTest.java=UTF-8
+encoding//src/thread/MyThread.java=UTF-8
