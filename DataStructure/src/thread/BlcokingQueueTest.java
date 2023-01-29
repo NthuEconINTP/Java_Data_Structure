@@ -17,7 +17,8 @@ public class BlcokingQueueTest {
     private static BlockingQueue<File> queue = new ArrayBlockingQueue<>(FILE_QUEUE_SIZE);
 
     public static void main(String[] args) {
-
+    	Vector a =new Vector();
+    	String ab;
         try (Scanner in = new Scanner(System.in)) {
             System.out.print("Enter base directory (e.g. /opt/jdk1.8.0/src): ");
             String directory = in.nextLine();
